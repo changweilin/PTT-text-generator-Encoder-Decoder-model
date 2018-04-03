@@ -7,7 +7,7 @@ PTT title generator from content base on seq2seq model.
 4. 2018/04/01. 訓練時TrainingHelper、GreedyEmbeddingHelper混合使用。一開始訓練時decoder需要輸入target幫助訓練，所以TrainingHelper機率大；後期model盡量與驗證時相同，所以GreedyEmbeddingHelper機率大。
 
 # 幾個待改善的重點問題
-1. 生成標題常常最後無法中斷，無意義重複生出特定字詞。(2018/04/01已解決，但現在變成生成太短)
+1. 生成標題常常最後無法中斷，無意義重複生出特定字詞。
 2. 看起來較相近的標題生成，不在loss最低的epoch中。
 3. 標題生成與輸入文本關係度不高，同一個epoch有比較常出現的字詞。
 
