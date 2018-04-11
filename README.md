@@ -1,3 +1,6 @@
+# PTT word embedding
+1. 2018/04/11 以PTT文本為輸入數據，進行Word Embedding模型訓練。
+
 # PTT-title-generator-Encoder-Decoder-model
 
 PTT title generator from content base on seq2seq model.
