@@ -11,3 +11,4 @@ PTT title generator from content base on seq2seq model.
 5. 2018/04/22. 調整initializer，並將計算改為float64 (原先float32時在計算regularization L2時會NaN)。現在可以對文章自動生成標題，且有一定程度的關聯性。
 
 # PTT push generator base on Encoder-Decoder-model
+1. 2018/04/23. 訓練每篇文章的第一位推文。
